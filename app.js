@@ -20,7 +20,7 @@ const songs = [
   {
     artistName: "Chris Brown",
     songName: "Under The Influence",
-    music: "musics/underTheInfluence.m4A",
+    music: "musics/underTheInfluence.mp3",
   },
   {
     artistName: "Weeknd",
@@ -30,7 +30,7 @@ const songs = [
   {
     artistName: "Ariane Grande",
     songName: "Boyfriend",
-    music: "musics/boyfriend.FLAC",
+    music: "musics/boyfriend.mp3",
   },
   {
     artistName: "Justin Bieber",
@@ -95,7 +95,7 @@ const songs = [
   {
     artistName: "Moon Knight",
     songName: "A Man Without Love",
-    music: "musics/manWithoutLove.m4A",
+    music: "musics/manWithoutLove.mp3",
   },
   {
     artistName: "Billie Ellish",
