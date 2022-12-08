@@ -94,7 +94,6 @@ img{
 .slider {
     position: relative;
     z-index: 2;
-    -webkit-appearance: none;
     height: 5px;
     border-radius: 10px;
     background: white;
