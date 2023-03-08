@@ -12,7 +12,16 @@ const trackRange=document.querySelector("#range");
 const vol=document.querySelector("#vol");
 const currentTrack= document.createElement("audio");
 const container= document.querySelector("#container");
+var volumeContainer = document.querySelector('.volume-container');
+var volumeControls = document.querySelector('.volume-controls');
 
+volumeContainer.addEventListener('mouseover', function() {
+  volumeControls.classList.add('show');
+});
+
+volumeContainer.addEventListener('mouseout', function() {
+  volumeControls.classList.remove('show');
+});
 let isPlaying= false;
 let trackIndex= 0;
 

@@ -15,9 +15,7 @@ body{
     background-color: #3f0071;
     color: #fad6a5;
 }
-@media (max-width:450px) {
-    
-}
+
 #container{
     position: relative;
     width: 20%;
@@ -79,10 +77,25 @@ img{
     z-index: 2;
     font-size: 0.8rem;
 }
-/* .rotate{
+.rotate{
     animation: rotate 3s linear infinite;
 }
-@keyframes rotate {
+.volume-controls {
+    /* Add any additional styling you need */
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+
+    font-size: 1.5rem;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .volume-controls.show {
+    opacity: 1;
+  }
+/* @keyframes rotate {
     from{
         transform: rotate(0deg);
     }
